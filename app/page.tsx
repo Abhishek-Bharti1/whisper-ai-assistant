@@ -56,7 +56,6 @@ const [displaySettings,setDisplaySettings] = useState(false)
       }
     }
   };
-  console.log("messages", messages);
   return (
     <main className="bg-black h-screen overflow-y-auto">
       {/* Header */}

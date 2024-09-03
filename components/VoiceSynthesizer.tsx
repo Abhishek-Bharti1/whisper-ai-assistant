@@ -9,7 +9,7 @@ type State = {
 const VoiceSynthesizer = ({
   state,
   displaySettings,
-}: {
+} : {
   state: State;
   displaySettings: boolean;
 }) => {
@@ -21,7 +21,7 @@ const VoiceSynthesizer = ({
 
   useEffect(() => {
     setSynth(window.speechSynthesis);
-  }, [window]);
+  }, []);
   useEffect(() => {
     if (!state.response || !synth) return;
 
@@ -36,7 +36,7 @@ const VoiceSynthesizer = ({
     return () => {
       synth.cancel();
     };
-  }, [state]);
+  }, [state,voice,pitch,rate,volume]);
   const handleVoiceChange = (e: ChangeEvent<HTMLSelectElement>) => {
     const voices = window.speechSynthesis.getVoices();
     const voice = voices.find((v) => v.name === e.target.value);
