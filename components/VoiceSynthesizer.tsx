@@ -3,7 +3,7 @@
 import { ChangeEvent, useEffect, useState } from "react";
 
 type State = {
-  state: string;
+  sender: string;
   response: string | null | undefined;
 };
 const VoiceSynthesizer = ({
