@@ -34,10 +34,11 @@ This project is a web application built using Next.js, Typescript with Azure Ope
 3. **Setup env**
 
    - Create a .env.local file in the root of your project and add the following environment variables:
-     AZURE_API_KEY=your_azure_api_key
-     AZURE_API_ENDPOINT=https://your_endpoint
-     AZURE_DEPLOYMENT_NAME=your_deployment_name
-     AZURE_DEPLOYMENT_COMPLETIONS_NAME=your_completions_deployment_name
+
+    - AZURE_API_KEY=your_azure_api_key
+    - AZURE_API_ENDPOINT=https://your_endpoint
+    - AZURE_DEPLOYMENT_NAME=your_deployment_name
+    - AZURE_DEPLOYMENT_COMPLETIONS_NAME=your_completions_deployment_name
 
 4. **Run the Development Server**
 
@@ -51,3 +52,5 @@ This project is a web application built using Next.js, Typescript with Azure Ope
 - **Whisper AI** - For speech recognition and transcription.
 - **Tailwind CSS** - Utility-first CSS framework for styling.
 - **Vercel** - Hosting platform for deploying Next.js applications.
+
+![image](https://github.com/user-attachments/assets/0dcd1eee-092d-40f4-872a-47a021048d00)
