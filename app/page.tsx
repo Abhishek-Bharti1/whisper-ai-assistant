@@ -13,7 +13,6 @@ const initialState = {
   sender: "",
   response: "",
   id: "",
-  state: {}
 };
 
 export type Message = {
